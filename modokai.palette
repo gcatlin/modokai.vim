@@ -1,0 +1,92 @@
+vim_colors "modokai" do
+  author "Geoff Catlin"
+  notes  "A modification of monokai"
+
+  reset      true
+  background :dark
+
+  # Chrome
+  Normal         "F8F8F2", "1B1C18"
+  LineNr         "75715E", "3D3D38"
+  Cursor         "1B1C18", "F8F8F2"
+  CursorLine     "NONE",   "272822"
+  CursorColumn   "NONE",   "NONE"
+  ColorColumn    "NONE",   "NONE"
+  Visual         "NONE",   "49483E"
+  VertSplit      "64645E", "64645E"
+  StatusLine     "NONE",   "3D3D38"
+  StatusLineNC   "75715E", "3D3D38"
+  TabLine        "75715E", "3D3D38"
+  TabLineFill    "NONE",   "3D3D38"
+  TabLineSel     "NONE",   "3D3D38"
+  Title          "F92672", "NONE"
+
+  # Popup Menu
+  PMenu          "NONE",   "3A3A3A"
+  PMenuSbar      "NONE",   "303030"
+  PMenuThumb     "NONE",   "262626"
+  PMenuSel       "NONE",   "4E4E4E"
+
+  # Indicators
+  Search         "NONE",   "E6DB74"
+  IncSearch      "1B1C18", "E6DB74"
+  MatchParen     "1B1C18", "A6E22E"
+
+  Folded         "75715E", "NONE"
+  FoldColumn     "75715E", "3E3D32"
+  SignColum      "75715E", "3E3D32"
+
+  Question       "A6E22E", "NONE"
+  MoreMsg        "66D9EF", "NONE"
+  ErrorMsg       "F92672", "NONE", :gui => "standout"
+  WarningMsg     "FD971F", "NONE", :gui => "standout"
+
+  Directory      "66D9EF", "NONE"
+
+  NonText        "75715E", "NONE"
+  SpecialKey     "3B3A32", "NONE"
+
+  # Diff
+  DiffAdd        "NONE",  "A6E22E"
+  DiffChange     "NONE",  "E6DB74"
+  DiffDelete     "NONE",  "F92672"
+  DiffText       "NONE",  "E6DB74"
+
+  # Gray
+  Comment        "75715E", "NONE"
+  Special        "75715E", "NONE"
+  Todo           "75715E", "NONE",   :gui => "standout"
+
+  # Red
+  Conditional    "F92672", "NONE"
+  Define         "F92672", "NONE"
+  Exception      "F92672", "NONE"
+  Keyword        "F92672", "NONE"
+  Include        "F92672", "NONE"
+  Repeat         "F92672", "NONE"
+  Tag            "F92672", "NONE"
+
+  # Orange
+  PreProc        "FD971F", "NONE"
+
+  # Yellow
+  Character      "E6DB74", "NONE"
+  Label          "E6DB74", "NONE"
+  String         "E6DB74", "NONE"
+
+  # Green
+  Function       "A6E22E", "NONE"
+  Operator       "A6E22E", "NONE"
+
+  # Blue
+  Identifier     "66D9EF", "NONE",   :gui => "italic"
+  Statement      "66D9EF", "NONE"
+  StorageClass   "66D9EF", "NONE"
+  Type           "66D9EF", "NONE"
+
+  # Violet
+  Boolean        "AE81FF", "NONE"
+  TyConstantpe   "AE81FF", "NONE"
+  Float          "AE81FF", "NONE"
+  Number         "AE81FF", "NONE"
+end

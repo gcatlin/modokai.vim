@@ -74,7 +74,7 @@ hi Statement    guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE c
 hi StorageClass guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Type         guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean      guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
-hi TyConstantpe guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi Constant     guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Float        guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Number       guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 

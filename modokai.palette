@@ -86,7 +86,7 @@ vim_colors "modokai" do
 
   # Violet
   Boolean        "AE81FF", "NONE"
-  TyConstantpe   "AE81FF", "NONE"
+  Constant       "AE81FF", "NONE"
   Float          "AE81FF", "NONE"
   Number         "AE81FF", "NONE"
 end

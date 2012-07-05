@@ -68,6 +68,7 @@ vim_colors "modokai" do
 
   # Orange
   PreProc        "FD971F", "NONE"
+  pythonParameters "FD971F", "NONE"
 
   # Yellow
   Character      "E6DB74", "NONE"

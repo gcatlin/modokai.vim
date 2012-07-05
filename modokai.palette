@@ -5,6 +5,10 @@ vim_colors "modokai" do
   reset      true
   background :dark
 
+  ##############################################################################
+  # *highlight-groups*
+  #
+
   # Chrome
   Normal         "F8F8F2", "1B1C18"
   LineNr         "75715E", "3D3D38"
@@ -52,6 +56,10 @@ vim_colors "modokai" do
   DiffDelete     "NONE",  "F92672"
   DiffText       "NONE",  "E6DB74"
 
+  ##############################################################################
+  # *group-name*
+  #
+
   # Gray
   Comment        "75715E", "NONE"
   Special        "75715E", "NONE"
@@ -59,31 +67,37 @@ vim_colors "modokai" do
 
   # Red
   Conditional    "F92672", "NONE"
-  Define         "F92672", "NONE"
   Exception      "F92672", "NONE"
   Keyword        "F92672", "NONE"
-  Include        "F92672", "NONE"
+  Label          "F92672", "NONE"
+  Operator       "F92672", "NONE"
   Repeat         "F92672", "NONE"
   Tag            "F92672", "NONE"
+  pythonInclude  "F92672", "NONE"
+  pythonOperator "F92672", "NONE"
+  pythonExtraOperator "F92672", "NONE"
 
   # Orange
   PreProc        "FD971F", "NONE"
+  Include        "FD971F", "NONE"
+  Define         "FD971F", "NONE"
   pythonParameters "FD971F", "NONE"
+  pythonVars     "FD971F", "NONE"
 
   # Yellow
   Character      "E6DB74", "NONE"
-  Label          "E6DB74", "NONE"
   String         "E6DB74", "NONE"
 
   # Green
   Function       "A6E22E", "NONE"
-  Operator       "A6E22E", "NONE"
+  pythonClassParameters "A6E22E", "NONE"
 
   # Blue
   Identifier     "66D9EF", "NONE",   :gui => "italic"
   Statement      "66D9EF", "NONE"
   StorageClass   "66D9EF", "NONE"
   Type           "66D9EF", "NONE"
+  pythonBuiltin  "66D9EF", "NONE"
 
   # Violet
   Boolean        "AE81FF", "NONE"

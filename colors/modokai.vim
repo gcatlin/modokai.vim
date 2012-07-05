@@ -36,8 +36,8 @@ hi PMenu                 guifg=NONE    ctermfg=NONE guibg=#3A3A3A ctermbg=237  g
 hi PMenuSbar             guifg=NONE    ctermfg=NONE guibg=#303030 ctermbg=236  gui=NONE cterm=NONE
 hi PMenuThumb            guifg=NONE    ctermfg=NONE guibg=#262626 ctermbg=235  gui=NONE cterm=NONE
 hi PMenuSel              guifg=NONE    ctermfg=NONE guibg=#4E4E4E ctermbg=239  gui=NONE cterm=NONE
-hi Search                guifg=NONE    ctermfg=NONE guibg=#E6DB74 ctermbg=186  gui=NONE cterm=NONE
-hi IncSearch             guifg=#1B1C18 ctermfg=234  guibg=#E6DB74 ctermbg=186  gui=NONE cterm=NONE
+hi Search                guifg=#1B1C18 ctermfg=234  guibg=#FD971F ctermbg=208  gui=NONE cterm=NONE
+hi IncSearch             guifg=#1B1C18 ctermfg=234  guibg=#FD971F ctermbg=208  gui=NONE cterm=NONE
 hi MatchParen            guifg=#1B1C18 ctermfg=234  guibg=#A6E22E ctermbg=148  gui=NONE cterm=NONE
 hi Folded                guifg=#75715E ctermfg=242  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn            guifg=#75715E ctermfg=242  guibg=#3E3D32 ctermbg=237  gui=NONE cterm=NONE

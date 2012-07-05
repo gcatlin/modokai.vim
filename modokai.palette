@@ -32,8 +32,8 @@ vim_colors "modokai" do
   PMenuSel       "NONE",   "4E4E4E"
 
   # Indicators
-  Search         "NONE",   "E6DB74"
-  IncSearch      "1B1C18", "E6DB74"
+  Search         "1B1C18", "FD971F"
+  IncSearch      "1B1C18", "FD971F"
   MatchParen     "1B1C18", "A6E22E"
 
   Folded         "75715E", "NONE"

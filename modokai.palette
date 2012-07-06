@@ -6,102 +6,142 @@ vim_colors "modokai" do
   background :dark
 
   ##############################################################################
+  # Define semantic elements
+  #
+  Emphasized  = "FFFFFD"
+  FgPrimary   = "F8F8F2"
+  FgSecondary = "858582" #"777774"
+  FgTertiary  = "646460"
+  BgTertiary  = "3D3D38"
+  BgSecondary = "272822"
+  BgPrimary   = "1B1C18"
+  None        = "NONE"
+ 
+  ##############################################################################
+  # Define color palette
+  #
+  Red     = "F92672"
+  Orange  = "FD971F"
+  Yellow  = "E6DB74"
+  Green   = "A6E22E"
+  Blue    = "66D9EF"
+  Violet  = "AE81FF"
+
+  ##############################################################################
   # *highlight-groups*
   #
 
+  # Editing frame
+  Normal         FgPrimary, BgPrimary
+  Cursor         None, None, :gui => "reverse"
+  CursorLine     None, BgSecondary
+  CursorColumn   None, None
+  Visual         None, BgTertiary
+
   # Chrome
-  Normal         "F8F8F2", "1B1C18"
-  LineNr         "75715E", "3D3D38"
-  Cursor         "1B1C18", "F8F8F2"
-  CursorLine     "NONE",   "272822"
-  CursorColumn   "NONE",   "NONE"
-  ColorColumn    "NONE",   "NONE"
-  Visual         "NONE",   "49483E"
-  VertSplit      "64645E", "64645E"
-  StatusLine     "NONE",   "3D3D38"
-  StatusLineNC   "75715E", "3D3D38"
-  TabLine        "75715E", "3D3D38"
-  TabLineFill    "NONE",   "3D3D38"
-  TabLineSel     "NONE",   "3D3D38"
-  Title          "F92672", "NONE"
+  LineNr         FgTertiary, BgTertiary
+  Folded         BgTertiary, FgTertiary
+  FoldColumn     FgSecondary, BgTertiary
+  SignColum      FgSecondary, BgTertiary
+  ColorColumn    None, None
+
+  TabLine        FgTertiary, BgSecondary
+  TabLineFill    None, BgSecondary
+  TabLineSel     FgPrimary, BgTertiary
+
+  StatusLine     None, BgSecondary
+  StatusLineNC   FgTertiary, BgPrimary
+
+  VertSplit      BgTertiary, FgTertiary
 
   # Popup Menu
-  PMenu          "NONE",   "3A3A3A"
-  PMenuSbar      "NONE",   "303030"
-  PMenuThumb     "NONE",   "262626"
-  PMenuSel       "NONE",   "4E4E4E"
+  PMenu          None, BgTertiary
+  PMenuSbar      None, FgTertiary
+  PMenuThumb     None, BgTertiary
+  PMenuSel       None, FgTertiary
 
   # Indicators
-  Search         "1B1C18", "FD971F"
-  IncSearch      "1B1C18", "FD971F"
-  MatchParen     "1B1C18", "A6E22E"
+  Title          FgSecondary, None
 
-  Folded         "75715E", "NONE"
-  FoldColumn     "75715E", "3E3D32"
-  SignColum      "75715E", "3E3D32"
+  Search         BgPrimary, Orange
+  IncSearch      BgPrimary, Orange
+  MatchParen     BgPrimary, Green
 
-  Question       "A6E22E", "NONE"
-  MoreMsg        "66D9EF", "NONE"
-  ErrorMsg       "F92672", "NONE", :gui => "standout"
-  WarningMsg     "FD971F", "NONE", :gui => "standout"
+  Question       Blue, None
+  MoreMsg        Green, None
 
-  Directory      "66D9EF", "NONE"
+  ErrorMsg       BgPrimary, Red
+  WarningMsg     BgPrimary, Orange
 
-  NonText        "75715E", "NONE"
-  SpecialKey     "3B3A32", "NONE"
+  Directory      Blue, None
+
+  NonText        FgTertiary, None
+  SpecialKey     FgTertiary, None
+
+  # Spelling
+  #SpellBad
+  #SpellCap
+  #SpellLocal
+  #SpellRare
 
   # Diff
-  DiffAdd        "NONE",  "A6E22E"
-  DiffChange     "NONE",  "E6DB74"
-  DiffDelete     "NONE",  "F92672"
-  DiffText       "NONE",  "E6DB74"
+  DiffAdd        Green, None
+  DiffChange     Blue, None
+  DiffDelete     Red, None
+  DiffText       Orange, None
 
   ##############################################################################
   # *group-name*
   #
 
-  # Gray
-  Comment        "75715E", "NONE"
-  Special        "75715E", "NONE"
-  Todo           "75715E", "NONE",   :gui => "standout"
+  Comment        FgSecondary, None
 
-  # Red
-  Conditional    "F92672", "NONE"
-  Exception      "F92672", "NONE"
-  Keyword        "F92672", "NONE"
-  Label          "F92672", "NONE"
-  Operator       "F92672", "NONE"
-  Repeat         "F92672", "NONE"
-  Tag            "F92672", "NONE"
-  pythonInclude  "F92672", "NONE"
-  pythonOperator "F92672", "NONE"
-  pythonExtraOperator "F92672", "NONE"
+  Constant       Violet, None
+  String         Yellow, None
+  Character      Yellow, None
+  Number         Violet, None
+  Boolean        Violet, None
+  Float          Violet, None
 
-  # Orange
-  PreProc        "FD971F", "NONE"
-  Include        "FD971F", "NONE"
-  Define         "FD971F", "NONE"
-  pythonParameters "FD971F", "NONE"
-  pythonVars     "FD971F", "NONE"
+  Identifier     Blue, None
+  Function       Green, None
 
-  # Yellow
-  Character      "E6DB74", "NONE"
-  String         "E6DB74", "NONE"
+  Statement      Blue, None
+  Conditional    Red, None
+  Repeat         Red, None
+  Label          Red, None
+  Operator       Red, None
+  Keyword        Red, None
+  Exception      Red, None
 
-  # Green
-  Function       "A6E22E", "NONE"
-  pythonClassParameters "A6E22E", "NONE"
+  PreProc        Orange, None
+  Include        Orange, None
+  Define         Orange, None
+  Macro          Orange, None
+  PreCondit      Orange, None
 
-  # Blue
-  Identifier     "66D9EF", "NONE",   :gui => "italic"
-  Statement      "66D9EF", "NONE"
-  StorageClass   "66D9EF", "NONE"
-  Type           "66D9EF", "NONE"
-  pythonBuiltin  "66D9EF", "NONE"
+  Type           Blue, None
+  StorageClass   Blue, None
+  Structure      Blue, None
+  Typedef        Blue, None
 
-  # Violet
-  Boolean        "AE81FF", "NONE"
-  Constant       "AE81FF", "NONE"
-  Float          "AE81FF", "NONE"
-  Number         "AE81FF", "NONE"
+  Special        Yellow, None
+  SpecialChar    Yellow, None
+  Tag            Yellow, None
+  Delimiter      Yellow, None
+  SpecialComment Yellow, None
+  Debug          Yellow, None
+
+  Underlined     None, None, :gui => "underline"
+  Ignore         FgTertiary, None
+  Error          FgPrimary, Red
+  Todo           None, None, :gui => "reverse"
+
+  pythonBuiltin         Blue, None
+  pythonClassParameters Green, None
+  pythonExtraOperator   Red, None
+  pythonInclude         Red, None
+  pythonOperator        Red, None
+  pythonParameters      Orange, None
+  pythonVars            Orange, None
 end

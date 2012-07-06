@@ -10,7 +10,7 @@ vim_colors "modokai" do
   #
   Emphasized  = "FFFFFD"
   FgPrimary   = "F8F8F2"
-  FgSecondary = "858582" #"777774"
+  FgSecondary = "777774"
   FgTertiary  = "646460"
   BgTertiary  = "3D3D38"
   BgSecondary = "272822"
@@ -39,15 +39,15 @@ vim_colors "modokai" do
   Visual         None, BgTertiary
 
   # Chrome
-  LineNr         FgTertiary, BgTertiary
+  LineNr         BgTertiary, BgSecondary
   Folded         BgTertiary, FgTertiary
   FoldColumn     FgSecondary, BgTertiary
   SignColum      FgSecondary, BgTertiary
   ColorColumn    None, None
 
-  TabLine        FgTertiary, BgSecondary
-  TabLineFill    None, BgSecondary
-  TabLineSel     FgPrimary, BgTertiary
+  TabLine        FgTertiary, BgTertiary
+  TabLineFill    None, BgTertiary
+  TabLineSel     FgPrimary, FgTertiary
 
   StatusLine     None, BgSecondary
   StatusLineNC   FgTertiary, BgPrimary
@@ -135,7 +135,7 @@ vim_colors "modokai" do
   Underlined     None, None, :gui => "underline"
   Ignore         FgTertiary, None
   Error          FgPrimary, Red
-  Todo           None, None, :gui => "reverse"
+  Todo           FgSecondary, None, :gui => "underline"
 
   pythonBuiltin         Blue, None
   pythonClassParameters Green, None
@@ -145,3 +145,4 @@ vim_colors "modokai" do
   pythonParameters      Orange, None
   pythonVars            Orange, None
 end
+# vim: set filetype=ruby :

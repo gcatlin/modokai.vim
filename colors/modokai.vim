@@ -23,14 +23,14 @@ hi Cursor                guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE g
 hi CursorLine            guifg=NONE    ctermfg=NONE guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
 hi CursorColumn          guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Visual                guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
-hi LineNr                guifg=#646460 ctermfg=241  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
+hi LineNr                guifg=#3D3D38 ctermfg=237  guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
 hi Folded                guifg=#3D3D38 ctermfg=237  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
-hi FoldColumn            guifg=#858582 ctermfg=102  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
-hi SignColum             guifg=#858582 ctermfg=102  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
+hi FoldColumn            guifg=#777774 ctermfg=243  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
+hi SignColum             guifg=#777774 ctermfg=243  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi ColorColumn           guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
-hi TabLine               guifg=#646460 ctermfg=241  guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
-hi TabLineFill           guifg=NONE    ctermfg=NONE guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
-hi TabLineSel            guifg=#F8F8F2 ctermfg=255  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
+hi TabLine               guifg=#646460 ctermfg=241  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
+hi TabLineFill           guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
+hi TabLineSel            guifg=#F8F8F2 ctermfg=255  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
 hi StatusLine            guifg=NONE    ctermfg=NONE guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
 hi StatusLineNC          guifg=#646460 ctermfg=241  guibg=#1B1C18 ctermbg=234  gui=NONE cterm=NONE
 hi VertSplit             guifg=#3D3D38 ctermfg=237  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
@@ -38,7 +38,7 @@ hi PMenu                 guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  g
 hi PMenuSbar             guifg=NONE    ctermfg=NONE guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
 hi PMenuThumb            guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi PMenuSel              guifg=NONE    ctermfg=NONE guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
-hi Title                 guifg=#858582 ctermfg=102  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi Title                 guifg=#777774 ctermfg=243  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Search                guifg=#1B1C18 ctermfg=234  guibg=#FD971F ctermbg=208  gui=NONE cterm=NONE
 hi IncSearch             guifg=#1B1C18 ctermfg=234  guibg=#FD971F ctermbg=208  gui=NONE cterm=NONE
 hi MatchParen            guifg=#1B1C18 ctermfg=234  guibg=#A6E22E ctermbg=148  gui=NONE cterm=NONE
@@ -53,7 +53,7 @@ hi DiffAdd               guifg=#A6E22E ctermfg=148  guibg=NONE    ctermbg=NONE g
 hi DiffChange            guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete            guifg=#F92672 ctermfg=197  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText              guifg=#FD971F ctermfg=208  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
-hi Comment               guifg=#858582 ctermfg=102  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi Comment               guifg=#777774 ctermfg=243  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Constant              guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi String                guifg=#E6DB74 ctermfg=186  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Character             guifg=#E6DB74 ctermfg=186  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
@@ -87,7 +87,7 @@ hi Debug                 guifg=#E6DB74 ctermfg=186  guibg=NONE    ctermbg=NONE g
 hi Underlined            guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=UNDERLINE cterm=UNDERLINE
 hi Ignore                guifg=#646460 ctermfg=241  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Error                 guifg=#F8F8F2 ctermfg=255  guibg=#F92672 ctermbg=197  gui=NONE cterm=NONE
-hi Todo                  guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=REVERSE cterm=REVERSE
+hi Todo                  guifg=#777774 ctermfg=243  guibg=NONE    ctermbg=NONE gui=UNDERLINE cterm=UNDERLINE
 hi pythonBuiltin         guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi pythonClassParameters guifg=#A6E22E ctermfg=148  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi pythonExtraOperator   guifg=#F92672 ctermfg=197  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE

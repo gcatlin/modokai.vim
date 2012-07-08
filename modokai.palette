@@ -43,7 +43,7 @@ vim_colors "modokai" do
   Folded         BgTertiary, FgTertiary
   FoldColumn     FgSecondary, BgTertiary
   SignColum      FgSecondary, BgTertiary
-  ColorColumn    None, None
+  ColorColumn    None, BgSecondary
 
   TabLine        FgTertiary, BgTertiary
   TabLineFill    None, BgTertiary

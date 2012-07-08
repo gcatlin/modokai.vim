@@ -27,7 +27,7 @@ hi LineNr                guifg=#3D3D38 ctermfg=237  guibg=#272822 ctermbg=235  g
 hi Folded                guifg=#3D3D38 ctermfg=237  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
 hi FoldColumn            guifg=#777774 ctermfg=243  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi SignColum             guifg=#777774 ctermfg=243  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
-hi ColorColumn           guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi ColorColumn           guifg=NONE    ctermfg=NONE guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
 hi TabLine               guifg=#646460 ctermfg=241  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi TabLineFill           guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi TabLineSel            guifg=#F8F8F2 ctermfg=255  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE

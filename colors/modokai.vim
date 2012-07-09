@@ -23,11 +23,11 @@ hi Cursor                guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE g
 hi CursorLine            guifg=NONE    ctermfg=NONE guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
 hi CursorColumn          guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Visual                guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
-hi LineNr                guifg=#3D3D38 ctermfg=237  guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
-hi Folded                guifg=#3D3D38 ctermfg=237  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
-hi FoldColumn            guifg=#777774 ctermfg=243  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
-hi SignColum             guifg=#777774 ctermfg=243  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi ColorColumn           guifg=NONE    ctermfg=NONE guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
+hi Folded                guifg=#3D3D38 ctermfg=237  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
+hi LineNr                guifg=#3D3D38 ctermfg=237  guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
+hi FoldColumn            guifg=#777774 ctermfg=243  guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
+hi SignColum             guifg=#777774 ctermfg=243  guibg=#272822 ctermbg=235  gui=NONE cterm=NONE
 hi TabLine               guifg=#646460 ctermfg=241  guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi TabLineFill           guifg=NONE    ctermfg=NONE guibg=#3D3D38 ctermbg=237  gui=NONE cterm=NONE
 hi TabLineSel            guifg=#F8F8F2 ctermfg=255  guibg=#646460 ctermbg=241  gui=NONE cterm=NONE
@@ -52,7 +52,7 @@ hi SpecialKey            guifg=#646460 ctermfg=241  guibg=NONE    ctermbg=NONE g
 hi DiffAdd               guifg=#A6E22E ctermfg=148  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange            guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete            guifg=#F92672 ctermfg=197  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
-hi DiffText              guifg=#FD971F ctermfg=208  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi DiffText              guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=REVERSE cterm=REVERSE
 hi Comment               guifg=#777774 ctermfg=243  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Constant              guifg=#AE81FF ctermfg=141  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi String                guifg=#E6DB74 ctermfg=186  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE

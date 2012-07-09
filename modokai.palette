@@ -88,7 +88,7 @@ vim_colors "modokai" do
   DiffAdd        Green, None
   DiffChange     Blue, None
   DiffDelete     Red, None
-  DiffText       Orange, None
+  DiffText       Blue, None, :gui => "reverse"
 
   ##############################################################################
   # *group-name*

@@ -37,13 +37,13 @@ vim_colors "modokai" do
   CursorLine     None, BgSecondary
   CursorColumn   None, None
   Visual         None, BgTertiary
+  ColorColumn    None, BgSecondary
+  Folded         BgTertiary, FgTertiary
 
   # Chrome
   LineNr         BgTertiary, BgSecondary
-  Folded         BgTertiary, FgTertiary
-  FoldColumn     FgSecondary, BgTertiary
-  SignColum      FgSecondary, BgTertiary
-  ColorColumn    None, BgSecondary
+  FoldColumn     FgSecondary, BgSecondary
+  SignColum      FgSecondary, BgSecondary
 
   TabLine        FgTertiary, BgTertiary
   TabLineFill    None, BgTertiary

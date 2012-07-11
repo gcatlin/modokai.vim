@@ -135,7 +135,7 @@ vim_colors "modokai" do
   Underlined     None, None, :gui => "underline"
   Ignore         FgTertiary, None
   Error          FgPrimary, Red
-  Todo           FgSecondary, None, :gui => "underline"
+  Todo           None, None, :gui => "underline"
 
   pythonBuiltin         Blue, None
   pythonClassParameters Green, None

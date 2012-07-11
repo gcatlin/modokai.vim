@@ -87,7 +87,7 @@ hi Debug                 guifg=#E6DB74 ctermfg=186  guibg=NONE    ctermbg=NONE g
 hi Underlined            guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=UNDERLINE cterm=UNDERLINE
 hi Ignore                guifg=#646460 ctermfg=241  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi Error                 guifg=#F8F8F2 ctermfg=255  guibg=#F92672 ctermbg=197  gui=NONE cterm=NONE
-hi Todo                  guifg=#777774 ctermfg=243  guibg=NONE    ctermbg=NONE gui=UNDERLINE cterm=UNDERLINE
+hi Todo                  guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=UNDERLINE cterm=UNDERLINE
 hi pythonBuiltin         guifg=#66D9EF ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi pythonClassParameters guifg=#A6E22E ctermfg=148  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi pythonExtraOperator   guifg=#F92672 ctermfg=197  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE

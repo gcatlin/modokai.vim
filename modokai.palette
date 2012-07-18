@@ -38,7 +38,7 @@ vim_colors "modokai" do
   CursorColumn   None, None
   Visual         None, BgTertiary
   ColorColumn    None, BgSecondary
-  Folded         BgTertiary, FgTertiary
+  Folded         FgSecondary, BgPrimary
 
   # Chrome
   LineNr         BgTertiary, BgSecondary

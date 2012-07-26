@@ -41,7 +41,7 @@ vim_colors "modokai" do
   Folded         FgSecondary, BgPrimary
 
   # Chrome
-  LineNr         BgTertiary, BgSecondary
+  LineNr         FgTertiary, BgSecondary
   FoldColumn     FgSecondary, BgSecondary
   SignColum      FgSecondary, BgSecondary
 
